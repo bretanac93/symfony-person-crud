@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+{% if '93042500265' | slice(2,2) == 'now' |date('m') %}
+    <h1>Congrats</h1>
+{% else %}
+    <h1>Is not your birth month</h1>
+{%endif %}
+
+
+{% endblock %}

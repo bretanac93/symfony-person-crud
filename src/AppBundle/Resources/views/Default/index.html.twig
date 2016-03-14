@@ -1,0 +1,7 @@
+{% extends "::base.html.twig" %}
+{% block body %}
+	{% for item in entities %}
+		<img src="{{ item.pic }}" alt="">
+	{% else %}
+	{% endfor %}
+{% endblock %}

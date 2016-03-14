@@ -1,0 +1,6 @@
+app/cache
+app/logs
+.DS_STORE
+.phpintel
+
+
